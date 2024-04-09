@@ -1,0 +1,74 @@
+.box {
+    border: 2px solid #000;
+    padding: 40px;
+
+}
+
+.con {
+    display: flex;
+    background: pink;
+    justify-content: start;
+    /*start, end, center, space-between, space-around,space-evenly*/
+    height: 450px;
+    align-items: start;
+    /* stretch, start, end , center, baseline */
+}
+
+.b {
+    font-size: 66px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.page {
+    width: 1200px;
+    background: rgb(5, 54, 74);
+    margin: 0 auto;
+}
+
+header {
+    background: pink;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+        background: red;
+        padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav a
+    {
+        text-decoration: none;
+        color: white;
+    }
+section
+{
+    display: flex;
+    padding: 20px;
+}
+main
+{
+    background: salmon;
+    padding: 20px;
+
+}
+footer
+{
+   background: black; 
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
